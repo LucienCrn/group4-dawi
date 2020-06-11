@@ -14,11 +14,72 @@ echo('');
     <title>Espace Etudiant</title>
 </head>
 
+<style>
+table, th, td {
+  border: 1px solid black;
+  padding: 15px;
+}
+</style>
+
 <div>
-  <a href=http://localhost/group4-dawi/views/etudiant_view.php><img src="https://i.imgur.com/XI3xy73.png" title="Espace Etudiant" alt="custom_html_banner2" style="width:100%"/></a>
+  <img src="https://i.imgur.com/XI3xy73.png" title="Espace Etudiant" alt="custom_html_banner2" style="width:100%"/>
 </div>
 
 <body>
+
+<div style='padding-bottom:10px;'></div>
+
+<h1><span id="projets_tuteures"></span>Notes :</h1>
+
+<table style="width:100%;">
+  <tr>
+    <th>Notes 1</th>
+    <th>Notes 2</th> 
+    <th>Notes 3</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<div style='padding-bottom:10px;'></div>
+
+<h1><span id="projets_tuteures"></span>Emploi du temps :</h1>
+
+<table style="width:100%;">
+  <tr>
+    <th>Notes 1</th>
+    <th>Notes 2</th> 
+    <th>Notes 3</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 <div style='padding-bottom:10px;'></div>
 
