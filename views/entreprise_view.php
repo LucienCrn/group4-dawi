@@ -5,6 +5,7 @@ echo('');
 ?>
 <!DOCTYPE html>
 <html>
+<?php include_once("./includes/header.php");?>
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='Content-Type' content='text/html;'>
@@ -69,5 +70,6 @@ commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate v
 eum fugiat quo voluptas nulla pariatur?"</p></section>
 
 </body>
+<?php include_once("./includes/footer.php");?>
 
 </html>
