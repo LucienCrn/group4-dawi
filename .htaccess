@@ -1,6 +1,12 @@
+# Déclare la page des données
+DirectoryIndex index.php
+
+# Activation du moteur de réécriture d'URL
 RewriteEngine On
 
-RewriteCond %{REQUEST_FILENAME}!-f
-RewriteCond %{REQUEST_FILENAME}!-d
-
-RewriteRule ^(.*)$ index.php?url=$1
+# Règle qui permet ^ = début de chaine $ = fin de chaine
+# [] = choisir un caractère parmis a minuscule à z miniscule et A majuscule à Z majuscule, le "_" et le "-"
+# * = tout (présent 0 / 1 fois ou plusieurs fois)
+# () = pour prendre en compte la page ($1)
+# index.php?page=$1&%{QUERY_STRING} = prend en compte les autres paramètres possible ex : google.com/azer?action=form
+RewriteRule ^([a-zA-Z0-9_\-]*)?/?$ index.php?page=$1&%{QUERY_STRING}
