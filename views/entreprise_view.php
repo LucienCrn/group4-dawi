@@ -15,7 +15,7 @@ echo('');
 </head>
 
 <div>
-  <a href=http://localhost/group4-dawi/views/entreprise_view.php><img src="https://i.imgur.com/ZuVOp2H.png" title="Espace Entreprise" alt="custom_html_banner1" style="width:100%"/></a>
+  <img src="https://i.imgur.com/ZuVOp2H.png" title="Espace Entreprise" alt="custom_html_banner1" style="width:100%"/>
 </div>
 
 <body>
