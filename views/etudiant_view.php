@@ -5,6 +5,7 @@ echo('');
 ?>
 <!DOCTYPE html>
 <html>
+<?php include_once("./includes/header.php");?>
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='Content-Type' content='text/html;'>
@@ -30,6 +31,8 @@ table, th, td {
 <div style='padding-bottom:10px;'></div>
 
 <h1><span id="projets_tuteures"></span>Notes :</h1>
+
+<iframe src="<?php echo $path.$pdf ?>" width="300px" height="200px"></iframe>
 
 <table style="width:100%;">
   <tr>
@@ -110,5 +113,6 @@ eum fugiat quo voluptas nulla pariatur?"</p></section>
 font-size: 16px; margin: 4px 2px; cursor: pointer;" type="button">Télécharger Support</button></div>
 
 </body>
+<?php include_once("./includes/footer.php");?>
 
 </html>
