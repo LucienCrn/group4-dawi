@@ -15,6 +15,7 @@
     <div>
         <p>Bienvenue sur le site Dawi</p>
     </div>
+    
     <?php include_once('views/includes/footer.php')?>
 </body>
 </html>
