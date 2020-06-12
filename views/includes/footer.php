@@ -3,6 +3,8 @@
         <br>
         <div class="text-center">
         <a href="?page=login">Connectez-vous</a>
+        <br>
+        <a href="?page=account">Créer un compte</a>
         </div>
         <!--Récupération de la date pour afficher le copyright-->
         <br>
