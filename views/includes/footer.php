@@ -7,9 +7,18 @@
         <!--Récupération de la date pour afficher le copyright-->
         <br>
         <br>
-        <div class="text-right">
-        <img src="https://i.imgur.com/ntmIiEN.png" class="logo" alt="lg">
+        <div class="row">
+            <div class="col-sm">
+                <div class="text-right">
+                    <img src="https://i.imgur.com/ntmIiEN.png" class="logo" alt="lg">
+                </div>
+            </div>
         </div>
-        <p><strong>© <?php $date = date('Y'); echo $date ;?> Copyright - IUT d'Évry Val d'Essonne</strong></p>
+        <div class="row">
+            <div class="col-sm">
+                <p><strong>© <?php $date = date('Y'); echo $date ;?> Copyright - IUT d'Évry Val d'Essonne</strong></p>
+            </div>
+        </div>
     </div>
+    
 </footer>
