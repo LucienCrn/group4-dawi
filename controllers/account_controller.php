@@ -1,11 +1,11 @@
 <?php
 
-include_once("../models/Database.php");
-include_once ("../models/CreateAccount.php");
-include_once ("../views/DisplayAccount.php");
+include_once("./models/Database.php");
+include_once ("./models/account_model.php");
+include_once ("./views/DisplayAccount.php");
 
 $database = new Database();
-$creation = new CreateAccount();
+$creation = new AccountModel();
 $m_creation = new DisplayAccount();
 
 /* Declaration des variables pour garder en memoires les donnees */

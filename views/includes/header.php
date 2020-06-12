@@ -27,6 +27,12 @@
         case "etudiant":
           $h1 = "Espace étudiant";
         break;
+        case "account":
+          $h1 = "Inscription";
+        break;
+        case "login":
+          $h1 = "Connexion";
+        break;
         case "erreur":
           $h1 = "Erreur 404 : Page introuvable";
         break;
