@@ -35,7 +35,7 @@ include_once("views/includes/header.php");
                 
                 ?>
                 <div class="text-center">
-                    <iframe width="70%" height="300" src=""></iframe>
+                    <iframe width="70%" height="300" src="assets/img/dummyNoteEn.pdf"></iframe>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@ include_once("views/includes/header.php");
             <div class="margec">
                 <?php  ?>
                 <div class="text-center" id="mrg">
-                    <iframe width="70%" height="300" src=""></iframe>
+                    <iframe width="70%" height="300" src="assets/img/dummyEdtEn.pdf"></iframe>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@ include_once("views/includes/header.php");
                 <div>
                 <div class="text-center" id="mrg">
                     <form name="fnoteE" action="enseignant_controller.php" method="POST">
-                        <input type="hidden"  name="MAX_FILE_SIZE" value="30000"/> <!-- Value = taille du fichier .pdf -->
+                        <input type="hidden"  name="MAX_FILE_SIZE" value="500000"/> <!-- Value = taille du fichier .pdf -->
                         <input type="file" name="btNoteE" accept="application/pdf" enctype="multipart/form-data"/>
                         <input type="submit" name="ulNoteE" value="Envoyer"/>
                     </form>
@@ -74,7 +74,7 @@ include_once("views/includes/header.php");
                 <!-- affichage depuis la bdd -->
                 <?php  ?>
                 <div class="text-center" id="mrg">
-                    <iframe width="70%" height="300" src=""></iframe>
+                    <iframe width="70%" height="300" src="assets/img/Cours_Groupware.pdf"></iframe>
                 </div>
             </div>
         </div>

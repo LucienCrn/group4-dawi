@@ -23,7 +23,7 @@ include_once("views/includes/header.php");
         
         ?>
         <div class="text-center">
-            <iframe width="70%" height="300" src=""></iframe>
+            <iframe width="70%" height="300" src="assets/img/dummyNoteEl.pdf"></iframe>
         </div>
     </div>
 </div>
@@ -39,7 +39,7 @@ include_once("views/includes/header.php");
         
         ?>
         <div class="text-center">
-            <iframe width="70%" height="300" src=""></iframe>
+            <iframe width="70%" height="300" src="assets/img/dummyEdtEl.pdf"></iframe>
         </div>
     </div>
 </div>
@@ -55,7 +55,7 @@ include_once("views/includes/header.php");
         
         ?>
         <div class="text-center">
-            <iframe width="70%" height="300" src=""></iframe>
+            <iframe width="70%" height="300" src="assets/img/dummyPtEl.pdf"></iframe>
         </div>
     </div>
 </div>
@@ -71,7 +71,7 @@ include_once("views/includes/header.php");
         
         ?>
         <div class="text-center">
-            <iframe width="70%" height="300" src=""></iframe>
+            <iframe width="70%" height="300" src="assets/img/dummyOaEl.pdf"></iframe>
         </div>
     </div>
 </div>
