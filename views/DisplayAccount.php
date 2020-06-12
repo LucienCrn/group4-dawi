@@ -1,6 +1,13 @@
 <?php
 
-class DisplayAccount{
+include_once("./models/account_model.php");
+
+class DisplayAccount extends AccountModel {
+
+    public function showMail($mail){
+        $results = $this->getLogin();
+        echo "E-mail : " . $results[0]['user_mail'];
+    }
 
     public function alrdyLogin(){
         $txt = "<p style='margin-top: 250px; margin-left: 645px'>"

@@ -76,8 +76,6 @@ include_once("views/includes/header.php");
     </div>
 </div>
 
-</div>
-
 </body>
 <?php include_once('includes/footer.php')?>
 </html>

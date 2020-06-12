@@ -73,7 +73,7 @@ if($password != null && $password2 != null){
         $pass_hache = password_hash($password, PASSWORD_DEFAULT);
         
         /* On insert donc les données */
-        $userId = $creation->createUserAccount($first_name, $name, $mail, $pass_hache, $statut);
+        $userId = $creation->setLogin($first_name, $name, $mail, $pass_hache, $statut);
 
         /* Sinon on valide la création de compte et on invite l'utilisateur à se connecter */
         if($userId){
