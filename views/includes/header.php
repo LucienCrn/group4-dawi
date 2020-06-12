@@ -1,6 +1,5 @@
 <header>
     <div class="centered-div">
-    <!DOCTYPE html>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,14 +13,14 @@ body {
 
 .header {
   overflow: hidden;
-  background-color: #00365B;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #00365B;
   padding: 20px 10px;
 }
 
 .header a {
   float: left;
-  color: #FFFFFF;
+  color: #00365B;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -35,7 +34,7 @@ body {
   font-weight: bold;
 }
 
-.header a:hover {
+.header-right a:hover {
   background-color: #E06F24;
   color: white;
 }
@@ -66,15 +65,18 @@ height:100px;
 }
 
 </style>
-</head>
+
 
 <div class="header">
-  <a href="#home"><img src="https://i.imgur.com/4dlfgvZ.png" class="logo" alt="lg"></a>
+  <a href="#home"><img src="https://i.imgur.com/ntmIiEN.png" class="logo" alt="lg"></a>
   <div class="header-right">
-    <a class="active" href="#pdll">Présentation de la licence</a>
-    <a href="#eentreprise">Espace entreprise</a>
-    <a href="#eetudiant">Espace étudiant</a>
-    <a href="#eenseignant">Espace enseignants</a>
+  <a class="active" href="home_view.php">Présentation de la licence</a>
+    <a href="entrepris_view.php">Espace entreprise</a>
+    <a href="enseignant_view.php">Espace étudiant</a>
+    <a href="enseignant_view.php">Espace enseignants</a>
   </div>
+</div>
+<div class="banner">
+    <h1>Nom de la page</h1>
 </div>       
 </header>
