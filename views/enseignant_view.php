@@ -85,7 +85,7 @@ height:100px;
   <div class="header-right">
   <a class="active" href="home_view.php">Présentation de la licence</a>
     <a href="entreprise_view.php">Espace entreprise</a>
-    <a href="enseignant_view.php">Espace étudiant</a>
+    <a href="etudiant_view.php">Espace étudiant</a>
     <a href="enseignant_view.php">Espace enseignants</a>
   </div>
 </div>
@@ -165,6 +165,6 @@ height:100px;
         </div>
 
     </div>
-
+    <?php include_once("./includes/footer.php");?>
 </body>
 </html>

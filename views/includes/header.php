@@ -7,8 +7,8 @@
   <a href="#home"><img src="https://i.imgur.com/ntmIiEN.png" class="logo" alt="lg"></a>
   <div class="header-right">
   <a class="active" href="home_view.php">Présentation de la licence</a>
-    <a href="entrepris_view.php">Espace entreprise</a>
-    <a href="enseignant_view.php">Espace étudiant</a>
+    <a href="entreprise_view.php">Espace entreprise</a>
+    <a href="etudiant_view.php">Espace étudiant</a>
     <a href="enseignant_view.php">Espace enseignants</a>
   </div>
 </div>
