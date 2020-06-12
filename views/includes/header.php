@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <div class="header">
-  <a href="#home"><img src="https://i.imgur.com/ntmIiEN.png" class="logo" alt="lg"></a>
+  <a href="index.php?page=home"><img src="https://i.imgur.com/ntmIiEN.png" class="logo" alt="lg"></a>
   <div class="header-right">
   <a class="active" href="index.php?page=home">Présentation de la licence</a>
     <a href="index.php?page=entreprise">Espace entreprise</a>
@@ -26,6 +26,9 @@
         break;
         case "etudiant":
           $h1 = "Espace étudiant";
+        break;
+        case "erreur":
+          $h1 = "Erreur 404 : Page introuvable";
         break;
       }
      echo $h1;

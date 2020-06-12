@@ -32,6 +32,7 @@ if(in_array($page.'_controller.php', $allPages)){
     include_once('controllers/'.$page.'_controller.php');
     
 } else {
-    echo "Erreur 404";
-    echo "<META HTTP-EQUIV='refresh' CONTENT='3; URL=index.php'>";
+    include_once('models/error_model.php');
+    include_once('views/error_view.php');
+    include_once('controllers/error_controller.php');
 }
