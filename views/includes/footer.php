@@ -3,8 +3,6 @@
         <br>
         <div class="text-center">
         <a href="login_view.php">Connectez-vous</a>
-        <br>
-        <a href="account_view.php">Inscrivez-vous</a>
         </div>
         <!--Récupération de la date pour afficher le copyright-->
         <br>

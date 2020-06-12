@@ -1,9 +1,12 @@
+<?php
+include_once('views/includes/head.php');
+include_once("views/includes/header.php");
+?>
 <!DOCTYPE html>
 <html>
-<?php include_once("./includes/head.php");?>
-<?php include_once("./includes/header.php");?>
-
-
+<head>
+    <title><?= ucfirst($page) . " - DAW2I"?></title>
+</head>
 <body>
 
 <!-- Div marges CSS -->
@@ -64,7 +67,6 @@
 </div>
 </div>
 </div>
-<?php include_once("./includes/footer.php");?>
 </body>
-
+<?php include_once('includes/footer.php')?>
 </html>

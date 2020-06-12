@@ -1,17 +1,13 @@
+<?php
+include_once('views/includes/head.php');
+include_once("views/includes/header.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='/group4-dawi/assets/css/style.css' rel='stylesheet'>
-    <link href='/group4-dawi/assets/Bootstrap/css/bootstrap.min.css' rel='stylesheet'>
-    <link href='/group4-dawi/assets/Bootstrap/js/bootstrap.min.js' rel='script'>
-    <!-- <link href='assets/images/logo.png' rel="icon"> -->
+    <title><?= ucfirst($page) . " - DAW2I"?></title>
 </head>
-
-
 <body>
-<?php include_once("./includes/header.php");?>
 
     <!-- Div marges CSS -->
     <div class='marge'>
@@ -84,6 +80,6 @@
         </div>
         </div>
     </div>
-    <?php include_once("./includes/footer.php");?>
-</body>
+    </body>
+<?php include_once('includes/footer.php')?>
 </html>

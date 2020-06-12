@@ -5,7 +5,6 @@
  */
 include_once('_config/config.php');
 include_once('_functions/functions.php');
-include_once('views/includes/head.php');
 
 
 // Définition de la page courante
@@ -33,11 +32,6 @@ if(in_array($page.'_controller.php', $allPages)){
     include_once('controllers/'.$page.'_controller.php');
     
 } else {
-
-    /**
-     * Inclusion de la page d'erreur
-     */
-    include_once('models/error_model.php');
-    include_once('controllers/error_controller.php');
-    include_once('views/error_view.php');
+    echo "Erreur 404";
+    echo "<META HTTP-EQUIV='refresh' CONTENT='3; URL=index.php'>";
 }
