@@ -157,8 +157,9 @@ height:100px;
                 </div>
 
             <!-- partie à mettre en sidebar -->
-            <div>
+            <div class="text-left">
                 <h2>Informations sur la formations</h2>
+                <div class="text-right">
                 <div class="margec">
                     <h4>Localisation</h4>
                     <p>
@@ -180,10 +181,12 @@ height:100px;
                     <h4>Durée de formation</h4>
                     <p>1 an</p>
                 </div>
+                </div>
             </div>
 
 </div>
 
-    <?php include_once('views/includes/footer.php')?>
+    
 </body>
+<?php include_once('includes/footer.php')?>
 </html>
