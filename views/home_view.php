@@ -11,10 +11,10 @@ include_once("views/includes/header.php");
 <body>
 
 <!-- Div marges CSS -->
-<div class='marge'>
+<div class='container'>
 
 <div class="row">
-<div class="col-sm">
+<div class="col">
     <div class="margea">
 
         <h2>Parcours : Développement avancé d'application Web Internet et Intranet (DAW2I)</h2>
@@ -77,41 +77,74 @@ include_once("views/includes/header.php");
                     </div>
                     <br>
                 </div>
-                </div>
+            </div>
 </div>
 
+    <!-- partie à mettre en sidebar -->
+        
 <div class="row">
-<div class="col-sm">
-            <!-- partie à mettre en sidebar -->
-            <div class="">
-                <h2>Informations sur la formations</h2>
-                <div class="text-right">
-                <div class="margec">
-                <br>
+    <div class="col-auto">
+
+        <h2>Informations sur la formations</h2>
+
+        <div class="text-right">
+            <div class="margec">
+
+        
+                <div>
+                    <img src="assets/img/pin.png" alt="logo" class="sblogo">
+                </div>
+   
+
+                <div>
+                    <br>
                     <h4>Localisation</h4>
                     <p>
                     Évry – Site Évry-Courcouronnes
                     <br>36 rue du Pelvoux – ZI de la Petite Montagne Nord
                     <br>91080 Courcouronnes
                     </p>
+                </div>
+
+
+                <div>
+                    <img src="assets/img/user.png" alt="logo" class="sblogo">
+                </div>
+
+                <div>
                     <h4>Responsable(s)</h4>
                     <p>
                     Khalifa DJEMAL
-                    <br><a href="mailto:k.djemal@iut.univ-evry.fr">k.djemal@iut.univ-evry.fr</a>
-                    </p>
+                    <br><a href="mailto:k.djemal@iut.univ-evry.fr">k.djemal@iut.univ-evry.fr</a>                        </p>
+                </div>
+
+                <div>
+                    <img src="assets/img/user.png" alt="logo" class="sblogo">
+                </div>
+
+                <div>
                     <h4>Contacts(s) administratif(s) et pédagogique(s)</h4>
                     <p>
                     Marie OCARIZ
                     <br><a href="mailto:m.ocariz@iut.univ-evry.fr">m.ocariz@iut.univ-evry.fr</a>
                     <br><a href="tel:01 69 47 72 21">01 69 47 72 21</a>
                     </p>
+                </div>
+                <div>
+                    <img src="assets/img/calendar.png" alt="logo" class="sblogo">
+                </div>
+
+                <div>
                     <h4>Durée de formation</h4>
                     <p>1 an</p>
                 </div>
+
             </div>
-            </div>
+        </div>
+
     </div>
 </div>
+
 </body>
 <?php include_once('includes/footer.php')?>
 </html>
