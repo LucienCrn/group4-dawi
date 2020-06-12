@@ -21,6 +21,7 @@ include_once("views/includes/header.php");
 
             <!-- contenu de la page -->
             <div class="margec">
+            <br>
                 <p>
                 Pour le Parcours Développement avancé d’Applications Web Internet et Intranet (DAW2I),
                 il est chargé de développement Web en Front-End et Back-End, et intégration de produits et de services Intranet ou/et Internet. 
@@ -33,6 +34,7 @@ include_once("views/includes/header.php");
             </div>
                 <h2>Objectifs de la formation</h2>
                 <div class="margec">
+                <br>
                 <p>
                 La Licence Métiers de l’Informatique: Applications Web propose deux parcours pour former des jeunes de niveau BAC+2 aux métiers 
                 de l’Internet et de responsable informatique. La formation MIAW d’une manière générale a des objectifs scientifiques et surtout professionnels 
@@ -41,6 +43,7 @@ include_once("views/includes/header.php");
                 </div>
                 <h2>Programme de la licence</h2>
                 <div class="margec">
+                <br>
                     <h3>Tronc commun</h3>
                     <div>
                         Communication et connaissance de l’entreprise
@@ -64,7 +67,7 @@ include_once("views/includes/header.php");
                         <br>&nbsp;&nbsp;&#8226; Conception des sites internet, CMS, WP, Joomla</br>
                     </div>
 
-                    <h3>Parcours : Développement avancé d'application Web Internet et Intranet (DAW2I)</h3>
+                    <br><h3>Parcours : Développement avancé d'application Web Internet et Intranet (DAW2I)</h3>
                     <div>
                         <br>&nbsp;&nbsp;&#8226; Développement et Intégration web / Réalisations sites web, Symfony3
                         <br>&nbsp;&nbsp;&#8226; Développement Mobile, Flutter / Cordova
@@ -72,6 +75,7 @@ include_once("views/includes/header.php");
                         <br>&nbsp;&nbsp;&#8226; Conception outils de collaboration web
                         <br>&nbsp;&nbsp;&#8226; Projets tutorés
                     </div>
+                    <br>
                 </div>
                 </div>
 </div>
@@ -83,6 +87,7 @@ include_once("views/includes/header.php");
                 <h2>Informations sur la formations</h2>
                 <div class="text-right">
                 <div class="margec">
+                <br>
                     <h4>Localisation</h4>
                     <p>
                     Évry – Site Évry-Courcouronnes
