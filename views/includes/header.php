@@ -72,9 +72,12 @@ height:100px;
   <a href="#home"><img src="https://i.imgur.com/4dlfgvZ.png" class="logo" alt="lg"></a>
   <div class="header-right">
     <a class="active" href="#pdll">Présentation de la licence</a>
-    <a href="#eentreprise">Espace entreprise</a>
+    <a href="entreprise">Espace entreprise</a>
     <a href="#eetudiant">Espace étudiant</a>
-    <a href="#eenseignant">Espace enseignants</a>
+    <a href="enseignant_view.php">Espace enseignants</a>
+  </div>
+  <div class="banner">
+    <h1>Nom de la page</h1>
   </div>
 </div>       
 </header>
