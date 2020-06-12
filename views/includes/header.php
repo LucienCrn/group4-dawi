@@ -80,12 +80,4 @@ height:100px;
     <h1>Nom de la page</h1>
   </div>
 </div>       
-            
-            <ul>
-                <li class="f-left"><a href="" target="_blank">Target blank</a></li>
-                <li class="f-right"><a href="mailto:daw2i@iut-evry.fr">Contacter le responsable de formation</a></li>
-            </ul>
-
-        </nav>
-    </div>
 </header>
