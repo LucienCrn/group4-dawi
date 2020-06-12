@@ -10,19 +10,19 @@ class DisplayAccount extends AccountModel {
     }
 
     public function alrdyLogin(){
-        $txt = "<p style='margin-top: 250px; margin-left: 645px'>"
+        $txt = "<p class='d-flex justify-content-center' style='color: red;'>"
             . "[ERREUR] Le mail est déjà utilisé.</p>";
         return $txt;
     }
 
     public function errorPassword(){
-        $txt = "<p style='margin-top: 250px; margin-left: 645px'>"
+        $txt = "<p class='d-flex justify-content-center' style='color: red;'>"
             . "[ERREUR] Vous n'avez pas confirmé votre mot de passe.</p>";
         return $txt;
     }
 
     public function getCreation(){
-        $txt = "<p style='margin-top: 250px; margin-left: 645px'>"
+        $txt = "<p class='d-flex justify-content-center' style='color: green;'>"
             . "[VALIDER] Le compte à bien été créé.</p>";
         return $txt;
     }

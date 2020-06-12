@@ -47,7 +47,7 @@ include_once("views/includes/header.php");
 <!-- Projet tutoré -->
 
 <div class="margea">
-    <h2>Projet tutoré</h2>
+    <h2>Projet tuteuré</h2>
     <!-- Contenu -->
     <div class="margec">
         <!-- affichage depuis la bdd -->

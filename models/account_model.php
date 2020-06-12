@@ -1,6 +1,5 @@
 <?php
 
-include_once("./models/account_model.php");
 include("MonPDO.php");
 
 class AccountModel {
@@ -10,21 +9,24 @@ class AccountModel {
 		echo 'N° : ' . $e->getCode();
     }
 
-    function getLogin($mail){
-	$unlogin = null;
-
-		$sql = "SELECT user_mail FROM user WHERE user_mail = '?'";
+    function getLogin($mail) {
+		$ret = false;
+		$sql = "SELECT count(*) as nb FROM user WHERE user_mail = :a";
 		try {
-	 		$stmt = MonPDO::getInstance()->prepare($sql);
- 			$stmt->execute(array(
- 				$mail
- 			));
-			$unlogin = $stmt->fetch();
+			$stmt = MonPDO::getInstance()->prepare($sql); // Préparation de la requête
+			$stmt->execute(array( // Exécution de la requête avec affectation des paramètres
+			':a'=>$mail
+			));
+			$resultat = $stmt->fetch();
+			$nb = $resultat['nb'];
+			$stmt->closeCursor();
+			if ($nb != 0) {
+				$ret = true;
+			} 
+		} catch(PDOException $e) { 
+			$this->afficheErreur($e);
 		}
-		catch(PDOException $e) {
-			afficheErreur($e);
-		}
-		return $unlogin;
+		return $ret;
 	}
     
     function setLogin($first_name, $name, $mail, $passwd, $statut){

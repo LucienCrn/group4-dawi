@@ -27,10 +27,11 @@ if(isset($_POST['first-name'])){
 /* On verifie si l'identifiant (e-mail) existe deja */
 if(isset($_POST['login'])){
     $mail = strtolower($_POST['login']);
+
     $creation->getLogin($mail);
 
     /* S'il existe on affichage un message et interrompt la création du compte */
-    if($mail == $creation->getLogin($mail)){
+    if($creation->getLogin($mail)){
         echo $m_creation->alrdyLogin();
         exit();
     }
@@ -77,7 +78,7 @@ if($password != null && $password2 != null){
 
         /* Sinon on valide la création de compte et on invite l'utilisateur à se connecter */
         if($userId){
-            $m_creation->getCreation();
+            echo $m_creation->getCreation();
         }        
     }
 }
