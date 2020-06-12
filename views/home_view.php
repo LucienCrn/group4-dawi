@@ -90,52 +90,57 @@ include_once("views/includes/header.php");
         <div class="text-right">
             <div class="margec">
 
-        
+                <br>
                 <div>
                     <img src="assets/img/pin.png" alt="logo" class="sblogo">
                 </div>
    
-
+                
                 <div>
                     <br>
-                    <h4>Localisation</h4>
+                    <h4>Localisation :</h4>
                     <p>
                     Évry – Site Évry-Courcouronnes
                     <br>36 rue du Pelvoux – ZI de la Petite Montagne Nord
                     <br>91080 Courcouronnes
                     </p>
                 </div>
+                <br>
 
 
                 <div>
                     <img src="assets/img/user.png" alt="logo" class="sblogo">
                 </div>
 
+                <br>
                 <div>
-                    <h4>Responsable(s)</h4>
+                    <h4>Responsable(s) :</h4>
                     <p>
                     Khalifa DJEMAL
-                    <br><a href="mailto:k.djemal@iut.univ-evry.fr">k.djemal@iut.univ-evry.fr</a>                        </p>
+                    <br><a href="mailto:k.djemal@iut.univ-evry.fr">k.djemal@iut.univ-evry.fr</a></p>
                 </div>
+                <br>
 
                 <div>
                     <img src="assets/img/user.png" alt="logo" class="sblogo">
                 </div>
 
+                <br>
                 <div>
-                    <h4>Contacts(s) administratif(s) et pédagogique(s)</h4>
+                    <h4>Contacts(s) administratif(s) et pédagogique(s) :</h4>
                     <p>
                     Marie OCARIZ
                     <br><a href="mailto:m.ocariz@iut.univ-evry.fr">m.ocariz@iut.univ-evry.fr</a>
-                    <br><a href="tel:01 69 47 72 21">01 69 47 72 21</a>
-                    </p>
+                    <br><a href="tel:01 69 47 72 21">01 69 47 72 21</a></p>
                 </div>
+                <br>
+
                 <div>
                     <img src="assets/img/calendar.png" alt="logo" class="sblogo">
                 </div>
-
+                <br>
                 <div>
-                    <h4>Durée de formation</h4>
+                    <h4>Durée de formation :</h4>
                     <p>1 an</p>
                 </div>
 
