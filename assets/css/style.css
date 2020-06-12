@@ -70,18 +70,16 @@ iframe{
 }
 
 
-* {box-sizing: border-box;}
-
 .header {
   overflow: hidden;
-  background-color: #00365B;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #00365B;
   padding: 20px 10px;
 }
 
 .header a {
   float: left;
-  color: #FFFFFF;
+  color: #00365B;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -95,7 +93,7 @@ iframe{
   font-weight: bold;
 }
 
-.header a:hover {
+.header-right a:hover {
   background-color: #E06F24;
   color: white;
 }

@@ -24,11 +24,6 @@
 <style>
 * {box-sizing: border-box;}
 
-body { 
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .header {
   overflow: hidden;
   background-color: #FFFFFF;
