@@ -1,8 +1,8 @@
 <?php
 
-include_once("../models/Database.php");
+include_once("./models/Database.php");
 
-class CreateAccount extends Database {
+class AccountModel extends Database {
 
     private $selectMail = "SELECT user_mail";
     private $fromUser = " FROM user";
