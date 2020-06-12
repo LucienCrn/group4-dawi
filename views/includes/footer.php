@@ -2,7 +2,7 @@
     <div>
         <br>
         <div class="text-center">
-        <a href="login_view.php">Connectez-vous</a>
+        <a href="?page=account">Connectez-vous</a>
         </div>
         <!--Récupération de la date pour afficher le copyright-->
         <br>
