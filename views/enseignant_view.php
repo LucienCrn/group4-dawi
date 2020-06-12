@@ -37,6 +37,12 @@ include_once("views/includes/header.php");
                 <div class="text-center">
                     <iframe width="70%" height="300" src="assets/img/dummyNoteEn.pdf"></iframe>
                 </div>
+
+                <a href="assets/img/dummyNoteEn.pdf"><div style="text-align:center;"><button style="color: #FFFFFF; background-color: #E06F24; 
+        border: none; padding: 15px 32px; text-align: center; font-size: 16px; margin: 4px 2px; margin-bottom: 20px; cursor: pointer;" 
+        type="button">Télécharger Notes</button></div></a>
+
+                
             </div>
         </div>
 
@@ -50,6 +56,11 @@ include_once("views/includes/header.php");
                 <div class="text-center" id="mrg">
                     <iframe width="70%" height="300" src="assets/img/dummyEdtEn.pdf"></iframe>
                 </div>
+
+                <a href="assets/img/dummyEdtEn.pdf"><div style="text-align:center;"><button style="color: #FFFFFF; background-color: #00365B; 
+        border: none; padding: 15px 32px; text-align: center; font-size: 16px; margin: 4px 2px; margin-bottom: 20px; cursor: pointer;" 
+        type="button">Télécharger Emploi du temps</button></div></a>
+
             </div>
         </div>
 
@@ -76,6 +87,10 @@ include_once("views/includes/header.php");
                 <div class="text-center" id="mrg">
                     <iframe width="70%" height="300" src="assets/img/Cours_Groupware.pdf"></iframe>
                 </div>
+
+                <a href="assets/img/Cours_Groupware.pdf"><div style="text-align:center;"><button style="color: #FFFFFF; background-color: #E06F24; 
+        border: none; padding: 15px 32px; text-align: center; font-size: 16px; margin: 4px 2px; margin-bottom: 20px; cursor: pointer;" 
+        type="button">Télécharger Support de cours</button></div></a>
             </div>
         </div>
         </div>
