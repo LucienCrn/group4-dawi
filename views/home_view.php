@@ -21,6 +21,8 @@
 <!-- Div marges CSS -->
 <div class='marge'>
 
+<div class="row">
+<div class="col-sm">
     <div class="margea">
 
         <h2>Parcours : Développement avancé d'application Web Internet et Intranet (DAW2I)</h2>
@@ -79,9 +81,13 @@
                         <br>&nbsp;&nbsp;&#8226; Projets tutorés
                     </div>
                 </div>
+                </div>
+</div>
 
+<div class="row">
+<div class="col-sm">
             <!-- partie à mettre en sidebar -->
-            <div class="text-left">
+            <div class="">
                 <h2>Informations sur la formations</h2>
                 <div class="text-right">
                 <div class="margec">
@@ -107,6 +113,8 @@
                 </div>
                 </div>
             </div>
+            </div>
+</div>
 </div>
 </div>
 
