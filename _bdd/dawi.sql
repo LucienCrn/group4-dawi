@@ -1,11 +1,9 @@
-CREATE DATABASE  IF NOT EXISTS `m2l_main` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `dawi`;
 -- phpMyAdmin SQL Dump
 -- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3308
--- Généré le :  jeu. 11 juin 2020 à 14:51
+-- Généré le :  ven. 12 juin 2020 à 08:46
 -- Version du serveur :  5.7.23
 -- Version de PHP :  7.2.10
 
@@ -132,7 +130,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `user_prenom` varchar(100) NOT NULL,
   `user_nom` varchar(100) NOT NULL,
   `user_mail` varchar(150) NOT NULL,
-  `user_pwd` varchar(50) NOT NULL,
+  `user_pwd` varchar(256) NOT NULL,
   `fk_usr_statut` int(11) NOT NULL,
   PRIMARY KEY (`user_id`),
   KEY `statut_idx` (`fk_usr_statut`)
