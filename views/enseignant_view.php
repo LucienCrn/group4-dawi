@@ -108,9 +108,9 @@ height:100px;
                     <p>Pour rajouter des notes, cliquer sur le bouton ci-dessous. Attention seul les fichiers en .PDF sont pris en charge</p>
                 </div>
                 <div class="text-center" id="mrg">
-                    <form name="fnoteE" action="enseignant_controller.php" method="POST">
+                    <form name="fnoteE" action="../controllers/CheckAccount.php" method="POST" onsubmit='return validate_input()'>
                         <input type="hidden"  name="MAX_FILE_SIZE" value="30000"/> <!-- Value = taille du fichier .pdf -->
-                        <input type="file" name="btNoteE" accept="application/pdf" enctype="multipart/form-data"/>
+                        <input type="file" name="NoteE" accept="application/pdf" enctype="multipart/form-data"/>
                         <input type="submit" name="ulNoteE" value="Envoyer"/>
                     </form>
                 </div>
