@@ -108,6 +108,9 @@ width:400px;
 height:100px;
 }
 
+.logod{
+  padding-right: 50px;
+}
 
 @media screen and (max-width: 500px) {
   .header a {
