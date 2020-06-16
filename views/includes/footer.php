@@ -18,7 +18,7 @@
         <div class="row">
             <div class="col-sm">
                 <div class="text-right">
-                    <img src="./assets/img/logoDawi.png" class="logod" alt="logo DAWI">
+                    <img src="assets/img/logoDawi.png" class="logod" alt="logo DAWI">
                     <img src="https://i.imgur.com/ntmIiEN.png" class="logo" alt="lg">
                 </div>
             </div>

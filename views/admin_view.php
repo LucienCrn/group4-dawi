@@ -3,7 +3,7 @@ include_once('views/includes/head.php');
 include_once("views/includes/header.php");
 ?>
 <!DOCTYPE html>
-<html>
+<html'>
 <head>
     <title><?= ucfirst($page) . " - DAW2I"?></title>
 </head>
@@ -31,13 +31,22 @@ if($status->getPermission(16)){?>
                             <th>Prénom</th>
                             <th>Nom</th>
                             <th>Mail</th>
-                            <th>Status</th>
+                            <th>Statut</th>
                             <th>Modifier</th>
+                            <th></th>
                         <?php
-                            include_once("models/admin_model.php");
                             $model = new AdminModel;
 
                             $datas = $model->getUsers();
+
+                            /**
+                             * On test si un formulaire à été envoyé
+                             * Si oui, on met a jour les données dans la base
+                             */
+                            if(isset($_POST['submit'])){
+                                $model->changeStatus($_POST['statut'], $_POST['id_user']);
+                                header('location: index.php?page=admin');
+                            }
 
                             foreach($datas as $row){
                                 echo '<tr>';
@@ -46,17 +55,29 @@ if($status->getPermission(16)){?>
                                     echo '<td>' . ucfirst($row['user_nom']) . '</td>';
                                     echo '<td>' . strtolower($row['user_mail']) . '</td>';
                                     echo '<td>' . ucfirst($row['sta_lib']) . '</td>';
-                                    echo '<td><a></a></td>';
+                                    echo '<td>';
+                                        echo '<form action="index.php?page=admin" method="POST">';
+                                            echo '<select id="statut" name="statut">';
+                                                echo '<option value="2">Etudiant</option>';
+                                                echo '<option value="4">Entreprise</option>';
+                                                echo '<option value="8">Enseignant</option>';
+                                                echo '<option value="16">Personnel miaw</option>';
+                                            echo '</select>';
+                                    echo '</td>';
+                                    echo '<td>';
+                                            echo '<input name="id_user" type="hidden" value="' . $row['user_id'] . '">';
+                                            echo '<input type="submit" name="submit" value="Valider">';
+                                        echo '</form>';
+                                    echo '</td>';
+                                    echo '</td>';
                                 echo '</tr>';
                             }
                         ?>
                     </thead>
                 </table>
-                
             </div>
         </div>
     </div>
-</div>
 
 <?php } else {
 

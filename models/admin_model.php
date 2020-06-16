@@ -25,4 +25,21 @@ class AdminModel {
            }
            return $users;
     }
+
+    public function changeStatus($status, $id){
+        $ret = false;
+        
+        try {
+            $sql = "UPDATE user SET fk_usr_statut = :a WHERE user_id = :b";
+            $stmt = MonPDO::getInstance()->prepare($sql); // Préparation de la requête
+            $stmt->execute([
+                ":a"=>$status,
+                ":b"=>$id
+                ]);
+            $ret = true;
+        } catch(PDOException $e) {
+            $this->afficheErreur($e);
+        }
+        return $ret; 
+    }
 }
