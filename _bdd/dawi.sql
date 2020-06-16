@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3308
--- Généré le :  ven. 12 juin 2020 à 08:46
+-- Généré le :  lun. 15 juin 2020 à 06:52
 -- Version du serveur :  5.7.23
 -- Version de PHP :  7.2.10
 
@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS `entreprise` (
   `user_id` int(100) NOT NULL,
   PRIMARY KEY (`entreprise_id`),
   KEY `fk_usr_ent_idx` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `entreprise`
@@ -83,7 +83,7 @@ CREATE TABLE IF NOT EXISTS `etudiant` (
   `user_id` int(100) NOT NULL,
   PRIMARY KEY (`etu_id`),
   KEY `fk_etu_usr_idx` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `etudiant`
@@ -134,7 +134,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `fk_usr_statut` int(11) NOT NULL,
   PRIMARY KEY (`user_id`),
   KEY `statut_idx` (`fk_usr_statut`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `user`
@@ -145,7 +145,11 @@ INSERT INTO `user` (`user_id`, `user_prenom`, `user_nom`, `user_mail`, `user_pwd
 (2, 'Neicul', 'Nuroc', 'b@b.net', 'pdm', 4),
 (3, 'Luis', 'Grov', 'c@c.com', 'aza', 8),
 (4, 'Guy', 'Chauvet', 'g@c.com', 'aza', 16),
-(5, 'Ibrahima', 'Girault', 'i@g.com', 'azer', 2);
+(5, 'Ibrahima', 'Girault', 'i@g.com', 'azer', 2),
+(6, 'Marc', 'Danton', 'marc@danton.fr', 'pwd', 16),
+(7, 'maxime', 'couderc', 'maxime1.couderc@gmail.com', '$2y$10$9H2FRrkHCa9BhzLf/yG0aOxFKSjBfiMHeH55zHgCm.eOaWyG8HNb.', 16),
+(8, 'lucien', 'cornu', 'lucien@cornu.fr', '$2y$10$t21hTMabc.P6BnCXC8oNhOo0SvIPSi7MeFJUaxlhgFt6iWKmUYNOC', 16),
+(9, 'admin', 'admin', 'admin@admin.com', '$2y$10$9H2FRrkHCa9BhzLf/yG0aOxFKSjBfiMHeH55zHgCm.eOaWyG8HNb.', 16);
 
 --
 -- Contraintes pour les tables déchargées

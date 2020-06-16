@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 /**
  * Inclusion des fichiers nécessaires 
  */
@@ -22,6 +24,7 @@ $allPages = scandir('controllers/');
 /**
  * Vérification de l'éxistence de la page
  */
+
 if(in_array($page.'_controller.php', $allPages)){
 
     /**

@@ -9,6 +9,10 @@ include_once("views/includes/header.php");
 ?>
 
 <body>
+<?php
+include_once('controllers/CheckStatus.php');
+$status = new CheckStatus();
+if(!isset($_SESSION['first_name'])){?>
 <!-- Div marges CSS -->
 <div class='marge'>
     <div class="row">
@@ -22,6 +26,10 @@ include_once("views/includes/header.php");
             </div>
         </div>
     </div>
+
+    <?php } else {
+    echo "<p class='d-flex justify-content-center' style='color: red;'>Vous ne pouvez pas accéder à cette page en étant connecté.</p>";
+}?>
 
 </body>
 <?php include_once('includes/footer.php')?>

@@ -9,6 +9,11 @@ include_once("views/includes/header.php");
 </head>
 <body>
 
+<?php
+include_once('controllers/CheckStatus.php');
+$status = new CheckStatus();
+if($status->getPermission(4) || $status->getPermission(16)){?>
+
 <!-- Div marges CSS -->
 <div class='marge'>
 
@@ -77,6 +82,16 @@ include_once("views/includes/header.php");
 </div>
 </div>
 </div>
+
+<?php } else {
+
+    if(isset($_SESSION['first_name'])){
+        echo "<p class='d-flex justify-content-center' style='color: red;'>Votre compte détient les permissions : [" . strtoupper($_SESSION['status']) . "] - Celles-ci sont inssufisantes pour accéder à cette page.</p>";
+    } else{
+        echo "<p class='d-flex justify-content-center' style='color: red;'>Vous ne pouvez pas accéder à cette page en étant déconnecté.</p>";
+    }
+}?>
+
 </body>
 <?php include_once('includes/footer.php')?>
 </html>

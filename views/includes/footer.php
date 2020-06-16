@@ -2,9 +2,15 @@
     <div>
         <br>
         <div class="text-center">
-        <a href="?page=login">Connectez-vous</a>
-        <br>
-        <a href="?page=account">Créer un compte</a>
+        <?php
+        if (isset($_SESSION['first_name']) && isset( $_SESSION['name']) && isset($_SESSION['mail']) && isset($_SESSION['status'])){
+            echo "<a href='?page=disconnect'>Déconnexion</a>";
+        } else {
+            echo "<a href='?page=login'>Connectez-vous</a>";
+            echo "<br>";
+            echo "<a href='?page=account'>Créer un compte</a>";
+        }
+        ?>
         </div>
         <!--Récupération de la date pour afficher le copyright-->
         <br>

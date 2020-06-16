@@ -18,7 +18,7 @@ class LoginModel {
             $unpsswd = $stmt->fetchAll();
            }
            catch(PDOException $e) {
-               afficheErreur($e);
+               $this->afficheErreur($e);
            }
            return $unpsswd;
     }
@@ -32,7 +32,7 @@ class LoginModel {
             $infos = $stmt->fetchAll();
            }
            catch(PDOException $e) {
-               afficheErreur($e);
+               $this->afficheErreur($e);
            }
            return $infos;
     }
